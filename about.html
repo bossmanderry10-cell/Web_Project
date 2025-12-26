@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Autobiography 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Container to center content and add padding */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        /* Responsive Navigation */
+        nav a {
+            display: inline-block;
+            margin: 5px 10px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* Responsive iframes and videos */
+        iframe, video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Headings and paragraphs */
+        h1, h2, p {
+            padding: 5px 0;
+        }
+
+        /* Section spacing */
+        section {
+            margin-bottom: 30px;
+        }
+
+        /* Mobile-friendly navigation */
+        @media screen and (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h1>My Autobiography</h1>
+
+   <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="registration.html">Registration Form</a> |
+        <a href="timetable.html">Timetable</a>
+    </nav>
+
+    <hr>
+
+    <!-- EDUCATION SECTION -->
+    <section>
+        <h2>Education</h2>
+        <p>My Favourite SHS: Achimota Senior High School</p>
+
+        <!-- Embed SHS Website -->
+        <iframe src="https://schoolsingh.com/senior-high-schools/achimota-school/about"></iframe>
+    </section>
+
+    <!-- RELIGIOUS SECTION -->
+    <section>
+        <h2>Religious Message</h2>
+        <p>Here is a religious message that inspires me:</p>
+
+        <!-- YouTube Video Embed -->
+        <iframe src="https://www.youtube.com/embed/Iz1nPYYY0yo" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- PERSONAL LOCAL VIDEO -->
+    <section>
+        <h2>My Social Event Video</h2>
+        <p>This is a video of a social event I was part of:</p>
+
+        <video controls>
+            <source src="social event.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+</div>
+</body>
+</html>
